@@ -1,1 +1,1 @@
-# pokemon-gaole-map
+# 寶可夢 Gaole 機台地圖
