@@ -8,15 +8,13 @@ window.onload = async () => {
     loadingComplete();
 }
 
-document.addEventListener('visibilitychange', function() {
-    if (document.visibilityState === 'visible') {
-        console.log('用戶已經重新進入畫面！');
-        // 接著寫確認了座標後要執行的事
-        location.reload();
-    }
-});
-
-
+// document.addEventListener('visibilitychange', function() {
+//     if (document.visibilityState === 'visible') {
+//         console.log('用戶已經重新進入畫面！');
+//         // 接著寫確認了座標後要執行的事
+//         location.reload();
+//     }
+// });
 
 const reloadBtn = document.getElementById('reload-btn');
 
