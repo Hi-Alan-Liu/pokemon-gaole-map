@@ -5,7 +5,6 @@ let marker;
 
 window.onload = async () => {
     await checkNavigator();
-    loadingComplete();
 }
 
 document.addEventListener('visibilitychange', function() {
@@ -42,10 +41,6 @@ function resetNavigator() {
         marker.setLatLng(center);
         map.panTo(center)
     });
-}
-
-function loadingComplete() {
-    document.getElementById('loading').style.display = "none";
 }
 
 function checkNavigator() {
